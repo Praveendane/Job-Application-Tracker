@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/applications";
+const API_URL = "https://job-application-tracker-9uax.onrender.com/api/applications";
 
 export const addApplication = (data) => {
   return axios.post(API_URL, data);
